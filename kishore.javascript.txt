@@ -1,0 +1,12 @@
+// Example: You can dynamically update details with JS
+document.addEventListener("DOMContentLoaded", () => {
+  const ageElement = document.getElementById("age");
+  const locationElement = document.getElementById("location");
+
+  // Example values (replace with your actual data if needed)
+  const age = 22; 
+  const location = "Coimbatore, Tamil Nadu";
+
+  if (ageElement) ageElement.textContent = `🎂 Age: ${age}`;
+  if (locationElement) locationElement.textContent = `📍 ${location}`;
+});
